@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="02-03-test.css">
+</head>
+<body>
+<div>
+        <form autocomplete="off" onsubmit="onFormSubmit(event)">
+            <div>
+                <label for="name">NAME</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <input type="submit" value="submit"> 
+            </div>
+        </form>
+        <div class="tabledata">
+            <td>
+                <table class="list" id="storelist">
+                    <thead>
+                        <tr>
+                            <th>NAME</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </td>
+        </div>
+    </div>
+</div>
+    <script src="test.js"></script>
+</body>
+</html>
